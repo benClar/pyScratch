@@ -3,8 +3,10 @@ from pprint import pprint
 
 
 class MIU(object):
+
     '''implementation to generate theorums from the MU system in descibed in
     https://en.wikipedia.org/wiki/Godel,_Escher,_Bach'''
+
     def __init__(self, _input, target, rule=None, parent=None):
         self._input = _input
         self._rule_lookup = {
