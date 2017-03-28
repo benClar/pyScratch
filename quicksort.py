@@ -19,7 +19,7 @@ def quickSort(input):
     return quickSort(input[0:i]) + quickSort(input[i:])
 
 
-class TestStringMethods(unittest.TestCase):
+class TestQuickSort(unittest.TestCase):
 
     def test_upper(self):
         input = [random.randint(0, 100) for i in range(0, 100)]
