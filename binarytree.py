@@ -73,6 +73,7 @@ class TestTree(unittest.TestCase):
             t.add(Node(i))
         self.assertEqual(t.getBreadthFirst(), [5, 2, 7, 3, 6, 8, 4])
 
+
     def test_depthFirst(self):
         t = Tree()
         d = [5, 7, 2, 6, 8, 3, 4]
