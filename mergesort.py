@@ -1,6 +1,6 @@
 
 def main():
-    input = [0, 4, 100, 34,52,47, 47, 47, 1, 3, 5, 2, 57, 58, 24, 47]
+    input = [0, 4, 100, 34,52,47, 47, 47, 1, 3, 5, 2, 57, 58, 24, 47, 22]
     input = [[i] for i in input]
     print mergeSort(input)
 

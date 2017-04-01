@@ -6,12 +6,9 @@ def quickSort(input):
     if len(input) == 1 or not input:
         return input
     i = 0
-    swapped = True
-    while(swapped and i != len(input)-1):
-        swapped = False
+    while(i != len(input)-1):
         for j in range(i, len(input)):
             if input[-1] >= input[j]:
-                swapped = True
                 input[i], input[j] = input[j], input[i]
                 i+=1
                 break
